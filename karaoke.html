@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karaoke - 日本語カラオケ表現集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎤 Karaoke</h1>
+        </header>
+
+        <div class="progress-tracker">
+            <strong>Learning Progress</strong>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%;">0%</div>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <button class="nav-button active" onclick="showSection('section1')">
+                1. Making a Reservation
+            </button>
+            <button class="nav-button" onclick="showSection('section2')">
+                2. At the Karaoke
+            </button>
+            <button class="nav-button" onclick="showSection('section3')">
+                3. Using the System
+            </button>
+            <button class="nav-button" onclick="showSection('section4')">
+                4. During the Session
+            </button>
+            <button class="nav-button" onclick="showSection('section5')">
+                5. Payment & Leaving
+            </button>
+        </div>
+
+        <!-- Section 1: Making a Reservation -->
+        <div id="section1" class="content-section active">
+            <h2>1. Making a Reservation</h2>
+            
+            <div class="cultural-note">
+                <h4>🏮 Cultural Context</h4>
+                <p>Karaoke is extremely popular in Japan and is a common social activity. Many karaoke places offer private rooms that you can rent by the hour. Some places require reservations, especially on weekends and holidays. Many karaoke chains have English-speaking staff and English song selections. It's common to order food and drinks while singing. Some places offer all-you-can-drink packages. Karaoke rooms typically have comfortable seating, microphones, and large screens for lyrics.</p>
+            </div>
+
+            <h3>Essential Phrases</h3>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>予約<rt>よやく</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。</div>
+                <div class="phrase-reading">よやくをおねがいします。</div>
+                <div class="phrase-romaji">Yoyaku wo onegai shimasu.</div>
+                <div class="phrase-english">I'd like to make a reservation, please.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request a karaoke room reservation. "予約" (yoyaku) means "appointment" or "reservation."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>今日<rt>きょう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>予約<rt>よやく</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（きょうのよる、よやくをおねがいします / kyou no yoru, yoyaku wo onegai shimasu）- I'd like to make a reservation for tonight, please.<br>
+                        • 「<ruby>何<rt>なん</rt></ruby><ruby>人<rt>にん</rt></ruby>で<ruby>予約<rt>よやく</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（なんにんでよやくをおねがいします / nannin de yoyaku wo onegai shimasu）- I'd like to make a reservation for [number] people, please.<br>
+                        • 「<ruby>空<rt>あ</rt></ruby>いている<ruby>時間<rt>じかん</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください」（あいているじかんをおしえてください / aite iru jikan wo oshiete kudasai）- Could you tell me available times?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>料金<rt>りょうきん</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。</div>
+                <div class="phrase-reading">りょうきんをおしえてください。</div>
+                <div class="phrase-romaji">Ryoukin wo oshiete kudasai.</div>
+                <div class="phrase-english">Could you tell me the price?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about the rental fee. "料金" (ryoukin) means "fee" or "price."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>一<rt>いっ</rt></ruby><ruby>時間<rt>じかん</rt></ruby>いくらですか？」（いちじかんいくらですか / ichijikan ikura desu ka）- How much is it per hour?<br>
+                        • 「<ruby>飲<rt>の</rt></ruby>み<ruby>放題<rt>ほうだい</rt></ruby>はいくらですか？」（のみほうだいはいくらですか / nomi houdai wa ikura desu ka）- How much is all-you-can-drink?<br>
+                        • 「<ruby>割引<rt>わりびき</rt></ruby>はありますか？」（わりびきはありますか / waribiki wa arimasu ka）- Do you have any discounts?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>何<rt>なん</rt></ruby><ruby>人<rt>にん</rt></ruby>用<rt>よう</rt></ruby>の<ruby>部屋<rt>へや</rt></ruby>がありますか？</div>
+                <div class="phrase-reading">なんにんようのへやがありますか？</div>
+                <div class="phrase-romaji">Nannin you no heya ga arimasu ka?</div>
+                <div class="phrase-english">What size rooms do you have?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about room sizes. "何人用" (nannin you) means "for how many people" and "部屋" (heya) means "room."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>少<rt>すく</rt></ruby>ない<ruby>人数<rt>にんずう</rt></ruby>でも<ruby>予約<rt>よやく</rt></ruby>できますか？」（すくないにんずうでもよやくできますか / sukunai ninzuu demo yoyaku dekimasu ka）- Can I make a reservation for a small group?<br>
+                        • 「<ruby>大<rt>おお</rt></ruby>きい<ruby>部屋<rt>へや</rt></ruby>はありますか？」（おおきいへやはありますか / ookii heya wa arimasu ka）- Do you have large rooms?<br>
+                        • 「<ruby>個室<rt>こしつ</rt></ruby>はありますか？」（こしつはありますか / koshitsu wa arimasu ka）- Do you have private rooms?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>英語<rt>えいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>はありますか？</div>
+                <div class="phrase-reading">えいごのきょくはありますか？</div>
+                <div class="phrase-romaji">Eigo no kyoku wa arimasu ka?</div>
+                <div class="phrase-english">Do you have English songs?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about English song availability. "英語の曲" (eigo no kyoku) means "English songs."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>洋楽<rt>ようがく</rt></ruby>はありますか？」（ようがくはありますか / yougaku wa arimasu ka）- Do you have Western music?<br>
+                        • 「<ruby>最新<rt>さいしん</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>はありますか？」（さいしんのきょくはありますか / saishin no kyoku wa arimasu ka）- Do you have the latest songs?<br>
+                        • 「<ruby>曲<rt>きょく</rt></ruby><ruby>数<rt>すう</rt></ruby>はどのくらいですか？」（きょくすうはどのくらいですか / kyokusuu wa dono kurai desu ka）- How many songs do you have?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>飲<rt>の</rt></ruby>み<ruby>放題<rt>ほうだい</rt></ruby>はありますか？</div>
+                <div class="phrase-reading">のみほうだいはありますか？</div>
+                <div class="phrase-romaji">Nomi houdai wa arimasu ka?</div>
+                <div class="phrase-english">Do you have all-you-can-drink?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about all-you-can-drink packages. "飲み放題" (nomi houdai) means "all-you-can-drink" or "unlimited drinks."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>飲<rt>の</rt></ruby>み<ruby>放題<rt>ほうだい</rt></ruby>の<ruby>料金<rt>りょうきん</rt></ruby>はいくらですか？」（のみほうだいのりょうきんはいくらですか / nomi houdai no ryoukin wa ikura desu ka）- How much is all-you-can-drink?<br>
+                        • 「<ruby>食べ<rt>た</rt></ruby>べ<ruby>放題<rt>ほうだい</rt></ruby>はありますか？」（たべほうだいはありますか / tabe houdai wa arimasu ka）- Do you have all-you-can-eat?<br>
+                        • 「<ruby>セット<rt>セット</rt></ruby><ruby>料金<rt>りょうきん</rt></ruby>はありますか？」（セットりょうきんはありますか / setto ryoukin wa arimasu ka）- Do you have package deals?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>営業<rt>えいぎょう</rt></ruby><ruby>時間<rt>じかん</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。</div>
+                <div class="phrase-reading">えいぎょうじかんをおしえてください。</div>
+                <div class="phrase-romaji">Eigyou jikan wo oshiete kudasai.</div>
+                <div class="phrase-english">Could you tell me your business hours?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about operating hours. "営業時間" (eigyou jikan) means "business hours" or "operating hours."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>から<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>までですか？」（なんじからなんじまでですか / nanji kara nanji made desu ka）- What are your hours?<br>
+                        • 「<ruby>24<rt>にじゅうよん</rt></ruby><ruby>時間<rt>じかん</rt></ruby><ruby>営業<rt>えいぎょう</rt></ruby>していますか？」（にじゅうよんじかんえいぎょうしていますか / nijuuyon jikan eigyou shite imasu ka）- Are you open 24 hours?<br>
+                        • 「<ruby>定休<rt>ていきゅう</rt></ruby><ruby>日<rt>び</rt></ruby>はいつですか？」（ていきゅうびはいつですか / teikyubi wa itsu desu ka）- What's your regular day off?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>予約<rt>よやく</rt></ruby>なしで<ruby>入<rt>はい</rt></ruby>れますか？</div>
+                <div class="phrase-reading">よやくなしではいれますか？</div>
+                <div class="phrase-romaji">Yoyaku nashi de hairemasu ka?</div>
+                <div class="phrase-english">Can I come without a reservation?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask if walk-ins are accepted. "予約なしで" (yoyaku nashi de) means "without a reservation."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>今<rt>いま</rt></ruby>すぐ<ruby>入<rt>はい</rt></ruby>れますか？」（いますぐはいれますか / ima sugu hairemasu ka）- Can I come in right now?<br>
+                        • 「<ruby>空<rt>あ</rt></ruby>き<ruby>部屋<rt>へや</rt></ruby>はありますか？」（あきへやはありますか / aki heya wa arimasu ka）- Do you have any available rooms?<br>
+                        • 「<ruby>待<rt>ま</rt></ruby>ち<ruby>時間<rt>じかん</rt></ruby>はありますか？」（まちじかんはありますか / machi jikan wa arimasu ka）- Is there a waiting time?
+                    </div>
+                </div>
+            </div>
+
+            <h3>Practice Quiz</h3>
+            <div class="quiz-section">
+                <div class="quiz-question" data-section="1" data-question="1">
+                    <p>Q1: <ruby>予約<rt>よやく</rt></ruby>をしたい<ruby>時<rt>とき</rt></ruby>、<ruby>正<rt>ただ</rt></ruby>しい<ruby>表現<rt>ひょうげん</rt></ruby>は？<br>
+                    <small>Which is correct when you want to make a reservation?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>予約<rt>よやく</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>予約<rt>よやく</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>予約<rt>よやく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>予約<rt>よやく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(1, 1)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="1" data-question="2">
+                    <p>Q2: <ruby>料金<rt>りょうきん</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きたい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>聞<rt>き</rt></ruby>きますか？<br>
+                    <small>How do you ask about the price?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>料金<rt>りょうきん</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>料金<rt>りょうきん</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>料金<rt>りょうきん</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>料金<rt>りょうきん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(1, 2)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="1" data-question="3">
+                    <p>Q3: <ruby>英語<rt>えいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>があるか<ruby>確認<rt>かくにん</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>聞<rt>き</rt></ruby>きますか？<br>
+                    <small>How do you ask if they have English songs?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>英語<rt>えいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>英語<rt>えいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>はありますか</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>英語<rt>えいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>英語<rt>えいご</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(1, 3)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-display" id="score1">
+                <ruby>正解<rt>せいかい</rt></ruby><ruby>数<rt>すう</rt></ruby>: <span id="scoreText1">0/3</span>
+            </div>
+        </div>
+
+        <!-- Section 2: At the Karaoke -->
+        <div id="section2" class="content-section">
+            <h2>2. At the Karaoke</h2>
+            
+            <div class="cultural-note">
+                <h4>🏮 Cultural Context</h4>
+                <p>When you arrive at a karaoke place in Japan, you'll check in at the reception desk. The staff will show you to your private room. Rooms typically have comfortable seating, microphones, a remote control for the karaoke system, and a phone to order food and drinks. Many places have English instructions or staff who can help. It's common to remove your shoes before entering the room in some places. The room will have a timer showing how much time you have left.</p>
+            </div>
+
+            <h3>Essential Phrases</h3>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>予約<rt>よやく</rt></ruby>しています。</div>
+                <div class="phrase-reading">よやくしています。</div>
+                <div class="phrase-romaji">Yoyaku shite imasu.</div>
+                <div class="phrase-english">I have a reservation.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to inform the staff that you have a reservation. "予約しています" (yoyaku shite imasu) means "I have an appointment."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>三<rt>さん</rt></ruby><ruby>時<rt>じ</rt></ruby>の<ruby>予約<rt>よやく</rt></ruby>です」（さんじのよやくです / sanji no yoyaku desu）- I have a 3 o'clock reservation.<br>
+                        • 「<ruby>名前<rt>なまえ</rt></ruby>は<ruby>田中<rt>たなか</rt></ruby>です」（なまえはたなかです / namae wa Tanaka desu）- My name is Tanaka.<br>
+                        • 「<ruby>予約<rt>よやく</rt></ruby>なしで<ruby>入<rt>はい</rt></ruby>れますか？」（よやくなしではいれますか / yoyaku nashi de hairemasu ka）- Can I come in without a reservation?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>部屋<rt>へや</rt></ruby>はどこですか？</div>
+                <div class="phrase-reading">へやはどこですか？</div>
+                <div class="phrase-romaji">Heya wa doko desu ka?</div>
+                <div class="phrase-english">Where is my room?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask for the location of your room. "部屋" (heya) means "room."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>案内<rt>あんない</rt></ruby>してください」（あんないしてください / annai shite kudasai）- Please show me the way.<br>
+                        • 「<ruby>何<rt>なん</rt></ruby><ruby>号<rt>ごう</rt></ruby><ruby>室<rt>しつ</rt></ruby>ですか？」（なんごうしつですか / nangoushitsu desu ka）- What room number is it?<br>
+                        • 「<ruby>階<rt>かい</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>階<rt>かい</rt></ruby>ですか？」（かいはなんかいですか / kai wa nankai desu ka）- What floor is it on?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>靴<rt>くつ</rt></ruby>を<ruby>脱<rt>ぬ</rt></ruby>ぎますか？</div>
+                <div class="phrase-reading">くつをぬぎますか？</div>
+                <div class="phrase-romaji">Kutsu wo nugimasu ka?</div>
+                <div class="phrase-english">Should I take off my shoes?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask if you should remove your shoes. "靴を脱ぎます" (kutsu wo nugimasu) means "take off shoes."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>スリッパ<rt>スリッパ</rt></ruby>はありますか？」（スリッパはありますか / surippa wa arimasu ka）- Do you have slippers?<br>
+                        • 「<ruby>靴<rt>くつ</rt></ruby><ruby>箱<rt>ばこ</rt></ruby>はどこですか？」（くつばこはどこですか / kutsubako wa doko desu ka）- Where is the shoe locker?<br>
+                        • 「<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>いたままでもいいですか？」（くつをはいたままでもいいですか / kutsu wo haita mama demo ii desu ka）- Can I keep my shoes on?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>マイク<rt>マイク</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>本<rt>ほん</rt></ruby>ありますか？</div>
+                <div class="phrase-reading">マイクはなんぼんありますか？</div>
+                <div class="phrase-romaji">Maiku wa nanbon arimasu ka?</div>
+                <div class="phrase-english">How many microphones are there?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about the number of microphones. "マイク" (maiku) means "microphone" and "何本" (nanbon) means "how many" (for long objects).</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>マイク<rt>マイク</rt></ruby>を<ruby>追加<rt>ついか</rt></ruby>できますか？」（マイクをついかできますか / maiku wo tsuika dekimasu ka）- Can I add more microphones?<br>
+                        • 「<ruby>マイク<rt>マイク</rt></ruby>が<ruby>動<rt>うご</rt></ruby>きません」（マイクがうごきません / maiku ga ugokimasen）- The microphone isn't working.<br>
+                        • 「<ruby>マイク<rt>マイク</rt></ruby>の<ruby>音量<rt>おんりょう</rt></ruby>を<ruby>調整<rt>ちょうせい</rt></ruby>できますか？」（マイクのおんりょうをちょうせいできますか / maiku no onryou wo chousei dekimasu ka）- Can I adjust the microphone volume?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>残<rt>のこ</rt></ruby>り<ruby>時間<rt>じかん</rt></ruby>はどのくらいですか？</div>
+                <div class="phrase-reading">のこりじかんはどのくらいですか？</div>
+                <div class="phrase-romaji">Nokori jikan wa dono kurai desu ka?</div>
+                <div class="phrase-english">How much time is left?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about remaining time. "残り時間" (nokori jikan) means "remaining time" or "time left."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>延長<rt>えんちょう</rt></ruby>できますか？」（えんちょうできますか / enchou dekimasu ka）- Can I extend the time?<br>
+                        • 「<ruby>何<rt>なん</rt></ruby><ruby>分<rt>ふん</rt></ruby><ruby>残<rt>のこ</rt></ruby>っていますか？」（なんふんのこっていますか / nanfun nokotte imasu ka）- How many minutes are left?<br>
+                        • 「<ruby>時間<rt>じかん</rt></ruby>を<ruby>追加<rt>ついか</rt></ruby>できますか？」（じかんをついかできますか / jikan wo tsuika dekimasu ka）- Can I add more time?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>使い方<rt>つかいかた</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。</div>
+                <div class="phrase-reading">つかいかたをおしえてください。</div>
+                <div class="phrase-romaji">Tsukaikata wo oshiete kudasai.</div>
+                <div class="phrase-english">Could you show me how to use it?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask for instructions on how to use the karaoke system. "使い方" (tsukaikata) means "how to use."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>説明<rt>せつめい</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（せつめいをおねがいします / setsumei wo onegai shimasu）- Could you explain, please?<br>
+                        • 「<ruby>初<rt>はじ</rt></ruby>めて<ruby>使<rt>つか</rt></ruby>います」（はじめてつかいます / hajimete tsukaimasu）- This is my first time using it.<br>
+                        • 「<ruby>英語<rt>えいご</rt></ruby>の<ruby>説明<rt>せつめい</rt></ruby><ruby>書<rt>しょ</rt></ruby>はありますか？」（えいごのせつめいしょはありますか / eigo no setsumeisho wa arimasu ka）- Do you have English instructions?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>トイレ<rt>トイレ</rt></ruby>はどこですか？</div>
+                <div class="phrase-reading">トイレはどこですか？</div>
+                <div class="phrase-romaji">Toire wa doko desu ka?</div>
+                <div class="phrase-english">Where is the restroom?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask for the location of the restroom. "トイレ" (toire) means "toilet" or "restroom."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>お<rt>お</rt></ruby><ruby>手洗<rt>てあら</rt></ruby>いはどこですか？」（おてあらいはどこですか / otearai wa doko desu ka）- Where is the restroom? (polite)<br>
+                        • 「<ruby>各<rt>かく</rt></ruby><ruby>階<rt>かい</rt></ruby>に<ruby>トイレ<rt>トイレ</rt></ruby>はありますか？」（かくかいにトイレはありますか / kakukai ni toire wa arimasu ka）- Is there a restroom on each floor?<br>
+                        • 「<ruby>最寄<rt>もより</rt></ruby>りの<ruby>トイレ<rt>トイレ</rt></ruby>はどこですか？」（もよりりのトイレはどこですか / moyori no toire wa doko desu ka）- Where is the nearest restroom?
+                    </div>
+                </div>
+            </div>
+
+            <h3>Practice Quiz</h3>
+            <div class="quiz-section">
+                <div class="quiz-question" data-section="2" data-question="1">
+                    <p>Q1: <ruby>予約<rt>よやく</rt></ruby>があることを<ruby>伝<rt>つた</rt></ruby>えたい<ruby>時<rt>とき</rt></ruby>、<ruby>正<rt>ただ</rt></ruby>しい<ruby>表現<rt>ひょうげん</rt></ruby>は？<br>
+                    <small>Which is correct when you want to say you have a reservation?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>予約<rt>よやく</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>予約<rt>よやく</rt></ruby>しています</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>予約<rt>よやく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>予約<rt>よやく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(2, 1)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="2" data-question="2">
+                    <p>Q2: <ruby>部屋<rt>へや</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きたい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>聞<rt>き</rt></ruby>きますか？<br>
+                    <small>How do you ask where your room is?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>部屋<rt>へや</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>部屋<rt>へや</rt></ruby>はどこですか</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>部屋<rt>へや</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>部屋<rt>へや</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(2, 2)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="2" data-question="3">
+                    <p>Q3: <ruby>使い方<rt>つかいかた</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きたい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>聞<rt>き</rt></ruby>きますか？<br>
+                    <small>How do you ask how to use it?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>使い方<rt>つかいかた</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>使い方<rt>つかいかた</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>使い方<rt>つかいかた</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>使い方<rt>つかいかた</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(2, 3)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-display" id="score2">
+                <ruby>正解<rt>せいかい</rt></ruby><ruby>数<rt>すう</rt></ruby>: <span id="scoreText2">0/3</span>
+            </div>
+        </div>
+
+        <!-- Section 3: Using the System -->
+        <div id="section3" class="content-section">
+            <h2>3. Using the System</h2>
+            
+            <div class="cultural-note">
+                <h4>🏮 Cultural Context</h4>
+                <p>Karaoke systems in Japan are typically controlled by a remote control or touch screen. You can search for songs by artist, title, or song number. Many systems have English language options. You can add songs to a queue and they'll play in order. Some systems allow you to adjust the key, tempo, and echo effects. You can also order food and drinks using the system. The screen will show lyrics in Japanese, and sometimes in English or romaji for foreign songs.</p>
+            </div>
+
+            <h3>Essential Phrases</h3>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>曲<rt>きょく</rt></ruby>を<ruby>検索<rt>けんさく</rt></ruby>したいです。</div>
+                <div class="phrase-reading">きょくをけんさくしたいです。</div>
+                <div class="phrase-romaji">Kyoku wo kensaku shitai desu.</div>
+                <div class="phrase-english">I'd like to search for a song.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to say you want to search for a song. "曲" (kyoku) means "song" and "検索" (kensaku) means "search."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>この<rt>この</rt></ruby><ruby>曲<rt>きょく</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しています」（このきょくをさがしています / kono kyoku wo sagashite imasu）- I'm looking for this song.<br>
+                        • 「<ruby>アーティスト<rt>アーティスト</rt></ruby>で<ruby>検索<rt>けんさく</rt></ruby>できますか？」（アーティストでけんさくできますか / aatisuto de kensaku dekimasu ka）- Can I search by artist?<br>
+                        • 「<ruby>曲<rt>きょく</rt></ruby><ruby>番号<rt>ばんごう</rt></ruby>で<ruby>検索<rt>けんさく</rt></ruby>できますか？」（きょくばんごうでけんさくできますか / kyoku bangou de kensaku dekimasu ka）- Can I search by song number?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>曲<rt>きょく</rt></ruby>を<ruby>追加<rt>ついか</rt></ruby>してください。</div>
+                <div class="phrase-reading">きょくをついかしてください。</div>
+                <div class="phrase-romaji">Kyoku wo tsuika shite kudasai.</div>
+                <div class="phrase-english">Please add this song.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request adding a song to the queue. "追加" (tsuika) means "add" or "append."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>この<rt>この</rt></ruby><ruby>曲<rt>きょく</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>いたいです」（このきょくをうたいたいです / kono kyoku wo utaitai desu）- I'd like to sing this song.<br>
+                        • 「<ruby>リクエスト<rt>リクエスト</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（リクエストをおねがいします / rikuesuto wo onegai shimasu）- I'd like to request this song, please.<br>
+                        • 「<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>に<ruby>追加<rt>ついか</rt></ruby>してください」（つぎのきょくについかしてください / tsugi no kyoku ni tsuika shite kudasai）- Please add it as the next song.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>音量<rt>おんりょう</rt></ruby>を<ruby>調整<rt>ちょうせい</rt></ruby>したいです。</div>
+                <div class="phrase-reading">おんりょうをちょうせいしたいです。</div>
+                <div class="phrase-romaji">Onryou wo chousei shitai desu.</div>
+                <div class="phrase-english">I'd like to adjust the volume.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request volume adjustment. "音量" (onryou) means "volume" and "調整" (chousei) means "adjustment."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>音<rt>おと</rt></ruby>を<ruby>大<rt>おお</rt></ruby>きくしてください」（おとをおおきくしてください / oto wo ookiku shite kudasai）- Please turn up the volume.<br>
+                        • 「<ruby>音<rt>おと</rt></ruby>を<ruby>小<rt>ちい</rt></ruby>さくしてください」（おとをちいさくしてください / oto wo chiisaku shite kudasai）- Please turn down the volume.<br>
+                        • 「<ruby>マイク<rt>マイク</rt></ruby>の<ruby>音量<rt>おんりょう</rt></ruby>を<ruby>変<rt>か</rt></ruby>えたいです」（マイクのおんりょうをかえたいです / maiku no onryou wo kaetai desu）- I'd like to change the microphone volume.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>キー<rt>キー</rt></ruby>を<ruby>変<rt>か</rt></ruby>えたいです。</div>
+                <div class="phrase-reading">キーをかえたいです。</div>
+                <div class="phrase-romaji">Kii wo kaetai desu.</div>
+                <div class="phrase-english">I'd like to change the key.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request a key change. "キー" (kii) means "key" (musical key).</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>キー<rt>キー</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げてください」（キーをあげてください / kii wo agete kudasai）- Please raise the key.<br>
+                        • 「<ruby>キー<rt>キー</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げてください」（キーをさげてください / kii wo sagete kudasai）- Please lower the key.<br>
+                        • 「<ruby>原調<rt>げんちょう</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>してください」（げんちょうにもどしてください / genchou ni modoshite kudasai）- Please return to the original key.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>エコー<rt>エコー</rt></ruby>を<ruby>調整<rt>ちょうせい</rt></ruby>したいです。</div>
+                <div class="phrase-reading">エコーをちょうせいしたいです。</div>
+                <div class="phrase-romaji">Ekoo wo chousei shitai desu.</div>
+                <div class="phrase-english">I'd like to adjust the echo.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request echo effect adjustment. "エコー" (ekoo) means "echo" and is the English word used in Japanese.</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>エコー<rt>エコー</rt></ruby>を<ruby>強<rt>つよ</rt></ruby>くしてください」（エコーをつよくしてください / ekoo wo tsuyoku shite kudasai）- Please increase the echo.<br>
+                        • 「<ruby>エコー<rt>エコー</rt></ruby>を<ruby>弱<rt>よわ</rt></ruby>くしてください」（エコーをよわくしてください / ekoo wo yowaku shite kudasai）- Please decrease the echo.<br>
+                        • 「<ruby>エコー<rt>エコー</rt></ruby>を<ruby>切<rt>き</rt></ruby>ってください」（エコーをきってください / ekoo wo kitte kudasai）- Please turn off the echo.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>歌詞<rt>かし</rt></ruby>を<ruby>見<rt>み</rt></ruby>たいです。</div>
+                <div class="phrase-reading">かしをみたいです。</div>
+                <div class="phrase-romaji">Kashi wo mitai desu.</div>
+                <div class="phrase-english">I'd like to see the lyrics.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request to see the lyrics. "歌詞" (kashi) means "lyrics."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>歌詞<rt>かし</rt></ruby>が<ruby>見<rt>み</rt></ruby>えません」（かしがみえません / kashi ga miemasen）- I can't see the lyrics.<br>
+                        • 「<ruby>英語<rt>えいご</rt></ruby>の<ruby>歌詞<rt>かし</rt></ruby>はありますか？」（えいごのかしはありますか / eigo no kashi wa arimasu ka）- Do you have English lyrics?<br>
+                        • 「<ruby>ローマ字<rt>ローマじ</rt></ruby>の<ruby>歌詞<rt>かし</rt></ruby>はありますか？」（ローマじのかしはありますか / roomaji no kashi wa arimasu ka）- Do you have lyrics in romaji?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>曲<rt>きょく</rt></ruby>を<ruby>スキップ<rt>スキップ</rt></ruby>したいです。</div>
+                <div class="phrase-reading">きょくをスキップしたいです。</div>
+                <div class="phrase-romaji">Kyoku wo sukippu shitai desu.</div>
+                <div class="phrase-english">I'd like to skip this song.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request skipping a song. "スキップ" (sukippu) means "skip" and is the English word used in Japanese.</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>に<ruby>飛<rt>と</rt></ruby>ばしてください」（つぎのきょくにとばしてください / tsugi no kyoku ni tobashite kudasai）- Please skip to the next song.<br>
+                        • 「<ruby>この<rt>この</rt></ruby><ruby>曲<rt>きょく</rt></ruby>を<ruby>削除<rt>さくじょ</rt></ruby>してください」（このきょくをさくじょしてください / kono kyoku wo sakujo shite kudasai）- Please remove this song.<br>
+                        • 「<ruby>曲<rt>きょく</rt></ruby>の<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>変<rt>か</rt></ruby>えたいです」（きょくのじゅんばんをかえたいです / kyoku no junban wo kaetai desu）- I'd like to change the song order.
+                    </div>
+                </div>
+            </div>
+
+            <h3>Practice Quiz</h3>
+            <div class="quiz-section">
+                <div class="quiz-question" data-section="3" data-question="1">
+                    <p>Q1: <ruby>曲<rt>きょく</rt></ruby>を<ruby>検索<rt>けんさく</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>正<rt>ただ</rt></ruby>しい<ruby>表現<rt>ひょうげん</rt></ruby>は？<br>
+                    <small>Which is correct when you want to search for a song?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>曲<rt>きょく</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>曲<rt>きょく</rt></ruby>を<ruby>検索<rt>けんさく</rt></ruby>したいです</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>曲<rt>きょく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>曲<rt>きょく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(3, 1)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="3" data-question="2">
+                    <p>Q2: <ruby>音量<rt>おんりょう</rt></ruby>を<ruby>調整<rt>ちょうせい</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？<br>
+                    <small>What do you say when you want to adjust the volume?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>音量<rt>おんりょう</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>音量<rt>おんりょう</rt></ruby>を<ruby>調整<rt>ちょうせい</rt></ruby>したいです</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>音量<rt>おんりょう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>音量<rt>おんりょう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(3, 2)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="3" data-question="3">
+                    <p>Q3: <ruby>曲<rt>きょく</rt></ruby>を<ruby>追加<rt>ついか</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？<br>
+                    <small>What do you say when you want to add a song?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>曲<rt>きょく</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>曲<rt>きょく</rt></ruby>を<ruby>追加<rt>ついか</rt></ruby>してください</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>曲<rt>きょく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>曲<rt>きょく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(3, 3)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-display" id="score3">
+                <ruby>正解<rt>せいかい</rt></ruby><ruby>数<rt>すう</rt></ruby>: <span id="scoreText3">0/3</span>
+            </div>
+        </div>
+
+        <!-- Section 4: During the Session -->
+        <div id="section4" class="content-section">
+            <h2>4. During the Session</h2>
+            
+            <div class="cultural-note">
+                <h4>🏮 Cultural Context</h4>
+                <p>During a karaoke session in Japan, it's common to order food and drinks using the phone or touch screen in the room. Many places offer a wide variety of food and drinks. It's polite to take turns singing, and it's common to clap and encourage others. Some people prefer to sing solo, while others enjoy duets or group songs. The atmosphere is usually relaxed and fun. You can order more time if you want to continue singing.</p>
+            </div>
+
+            <h3>Essential Phrases</h3>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>したいです。</div>
+                <div class="phrase-reading">のみものをちゅうもんしたいです。</div>
+                <div class="phrase-romaji">Nomimono wo chuumon shitai desu.</div>
+                <div class="phrase-english">I'd like to order drinks.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request ordering drinks. "飲み物" (nomimono) means "drinks" and "注文" (chuumon) means "order."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>ビール<rt>ビール</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（ビールをおねがいします / biiru wo onegai shimasu）- I'd like beer, please.<br>
+                        • 「<ruby>ソフト<rt>ソフト</rt></ruby><ruby>ドリンク<rt>ドリンク</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（ソフトドリンクをおねがいします / sofuto dorinku wo onegai shimasu）- I'd like a soft drink, please.<br>
+                        • 「<ruby>メニュー<rt>メニュー</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください」（メニューをみせてください / menyuu wo misete kudasai）- Could you show me the menu?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>食べ<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>したいです。</div>
+                <div class="phrase-reading">たべものをちゅうもんしたいです。</div>
+                <div class="phrase-romaji">Tabemono wo chuumon shitai desu.</div>
+                <div class="phrase-english">I'd like to order food.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request ordering food. "食べ物" (tabemono) means "food."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>フライド<rt>フライド</rt></ruby><ruby>ポテト<rt>ポテト</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（フライドポテトをおねがいします / furaido poteto wo onegai shimasu）- I'd like french fries, please.<br>
+                        • 「<ruby>お<rt>お</rt></ruby><ruby>つまみ<rt>つまみ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（おつまみをおねがいします / otsumami wo onegai shimasu）- I'd like some snacks, please.<br>
+                        • 「<ruby>軽食<rt>けいしょく</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（けいしょくをおねがいします / keishoku wo onegai shimasu）- I'd like light meals, please.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>時間<rt>じかん</rt></ruby>を<ruby>延長<rt>えんちょう</rt></ruby>したいです。</div>
+                <div class="phrase-reading">じかんをえんちょうしたいです。</div>
+                <div class="phrase-romaji">Jikan wo enchou shitai desu.</div>
+                <div class="phrase-english">I'd like to extend the time.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request extending your session time. "延長" (enchou) means "extension" or "prolongation."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>一<rt>いっ</rt></ruby><ruby>時間<rt>じかん</rt></ruby><ruby>延長<rt>えんちょう</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（いちじかんえんちょうをおねがいします / ichijikan enchou wo onegai shimasu）- I'd like to extend by one hour, please.<br>
+                        • 「<ruby>30<rt>さんじゅう</rt></ruby><ruby>分<rt>ふん</rt></ruby><ruby>延長<rt>えんちょう</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（さんじゅうふんえんちょうをおねがいします / sanjuufun enchou wo onegai shimasu）- I'd like to extend by 30 minutes, please.<br>
+                        • 「<ruby>延長<rt>えんちょう</rt></ruby><ruby>料金<rt>りょうきん</rt></ruby>はいくらですか？」（えんちょうりょうきんはいくらですか / enchou ryoukin wa ikura desu ka）- How much is the extension fee?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>次<rt>つぎ</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？</div>
+                <div class="phrase-reading">つぎのきょくはなんですか？</div>
+                <div class="phrase-romaji">Tsugi no kyoku wa nan desu ka?</div>
+                <div class="phrase-english">What's the next song?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask about the next song in the queue. "次の曲" (tsugi no kyoku) means "next song."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>待<rt>ま</rt></ruby>ち<ruby>行列<rt>ぎょうれつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください」（まちぎょうれつをみせてください / machi gyouretsu wo misete kudasai）- Could you show me the queue?<br>
+                        • 「<ruby>何<rt>なん</rt></ruby><ruby>曲<rt>きょく</rt></ruby><ruby>待<rt>ま</rt></ruby>っていますか？」（なんきょくまっていますか / nankyoku matte imasu ka）- How many songs are waiting?<br>
+                        • 「<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>したいです」（じゅんばんをかくにんしたいです / junban wo kakunin shitai desu）- I'd like to check the order.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>マイク<rt>マイク</rt></ruby>が<ruby>動<rt>うご</rt></ruby>きません。</div>
+                <div class="phrase-reading">マイクがうごきません。</div>
+                <div class="phrase-romaji">Maiku ga ugokimasen.</div>
+                <div class="phrase-english">The microphone isn't working.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to report a microphone problem. "動きません" (ugokimasen) means "isn't working" or "doesn't function."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>マイク<rt>マイク</rt></ruby>を<ruby>交換<rt>こうかん</rt></ruby>してください」（マイクをこうかんしてください / maiku wo koukan shite kudasai）- Please replace the microphone.<br>
+                        • 「<ruby>音<rt>おと</rt></ruby>が<ruby>出<rt>で</rt></ruby>ません」（おとがでません / oto ga demasen）- There's no sound.<br>
+                        • 「<ruby>修理<rt>しゅうり</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（しゅうりをおねがいします / shuuri wo onegai shimasu）- Please fix it.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>楽<rt>たの</rt></ruby>しかったです。</div>
+                <div class="phrase-reading">たのしかったです。</div>
+                <div class="phrase-romaji">Tanoshikatta desu.</div>
+                <div class="phrase-english">That was fun.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to express that you enjoyed the session. "楽しかった" (tanoshikatta) means "was fun" or "was enjoyable."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>素敵<rt>すてき</rt></ruby>な<ruby>時間<rt>じかん</rt></ruby>でした」（すてきなじかんでした / suteki na jikan deshita）- It was a wonderful time.<br>
+                        • 「<ruby>気<rt>き</rt></ruby>に<ruby>入<rt>い</rt></ruby>りました」（きにいりました / ki ni irimashita）- I enjoyed it.<br>
+                        • 「<ruby>また<rt>また</rt></ruby><ruby>来<rt>き</rt></ruby>たいです」（またきたいです / mata kitai desu）- I'd like to come again.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>交代<rt>こうたい</rt></ruby>しましょう。</div>
+                <div class="phrase-reading">こうたいしましょう。</div>
+                <div class="phrase-romaji">Koutai shimashou.</div>
+                <div class="phrase-english">Let's take turns.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to suggest taking turns singing. "交代" (koutai) means "taking turns" or "alternation."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>次<rt>つぎ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>が<ruby>歌<rt>うた</rt></ruby>いますか？」（つぎはだれがうたいますか / tsugi wa dare ga utaimasu ka）- Who's singing next?<br>
+                        • 「<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>いましょう」（いっしょにうたいましょう / issho ni utaimashou）- Let's sing together.<br>
+                        • 「<ruby>デュエット<rt>デュエット</rt></ruby>で<ruby>歌<rt>うた</rt></ruby>いましょう」（デュエットでうたいましょう / duetto de utaimashou）- Let's sing a duet.
+                    </div>
+                </div>
+            </div>
+
+            <h3>Practice Quiz</h3>
+            <div class="quiz-section">
+                <div class="quiz-question" data-section="4" data-question="1">
+                    <p>Q1: <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>正<rt>ただ</rt></ruby>しい<ruby>表現<rt>ひょうげん</rt></ruby>は？<br>
+                    <small>Which is correct when you want to order drinks?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>したいです</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(4, 1)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="4" data-question="2">
+                    <p>Q2: <ruby>時間<rt>じかん</rt></ruby>を<ruby>延長<rt>えんちょう</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？<br>
+                    <small>What do you say when you want to extend the time?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>時間<rt>じかん</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>時間<rt>じかん</rt></ruby>を<ruby>延長<rt>えんちょう</rt></ruby>したいです</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>時間<rt>じかん</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>時間<rt>じかん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(4, 2)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="4" data-question="3">
+                    <p>Q3: <ruby>マイク<rt>マイク</rt></ruby>が<ruby>動<rt>うご</rt></ruby>かないことを<ruby>報告<rt>ほうこく</rt></ruby>したい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？<br>
+                    <small>What do you say when you want to report that the microphone isn't working?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>マイク<rt>マイク</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>マイク<rt>マイク</rt></ruby>が<ruby>動<rt>うご</rt></ruby>きません</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>マイク<rt>マイク</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>マイク<rt>マイク</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(4, 3)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-display" id="score4">
+                <ruby>正解<rt>せいかい</rt></ruby><ruby>数<rt>すう</rt></ruby>: <span id="scoreText4">0/3</span>
+            </div>
+        </div>
+
+        <!-- Section 5: Payment & Leaving -->
+        <div id="section5" class="content-section">
+            <h2>5. Payment & Leaving</h2>
+            
+            <div class="cultural-note">
+                <h4>🏮 Cultural Context</h4>
+                <p>When it's time to leave a karaoke place in Japan, you'll pay at the reception desk. The bill typically includes room rental time and any food or drinks ordered. Payment is usually made in cash or by card. Some places offer point cards or membership benefits. It's common to check the bill before paying. If you extended your time, that will be added to the bill. Many places will give you a receipt.</p>
+            </div>
+
+            <h3>Essential Phrases</h3>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>会計<rt>かいけい</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。</div>
+                <div class="phrase-reading">かいけいをおねがいします。</div>
+                <div class="phrase-romaji">Kaikei wo onegai shimasu.</div>
+                <div class="phrase-english">I'd like to pay, please.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request payment. "会計" (kaikei) means "payment" or "check."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>お<rt>お</rt></ruby><ruby>会計<rt>かいけい</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（おかいけいをおねがいします / okaikei wo onegai shimasu）- I'd like to pay, please. (more polite)<br>
+                        • 「<ruby>支払<rt>しはら</rt></ruby>いをお<ruby>願<rt>ねが</rt></ruby>いします」（しはらいをおねがいします / shiharai wo onegai shimasu）- I'd like to pay, please.<br>
+                        • 「<ruby>合計<rt>ごうけい</rt></ruby>はいくらですか？」（ごうけいはいくらですか / goukei wa ikura desu ka）- What's the total?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>明細<rt>めいさい</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください。</div>
+                <div class="phrase-reading">めいさいをみせてください。</div>
+                <div class="phrase-romaji">Meisai wo misete kudasai.</div>
+                <div class="phrase-english">Could you show me the itemized bill?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request to see a detailed breakdown of charges. "明細" (meisai) means "details" or "itemized list."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>内訳<rt>うちわけ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください」（うちわけをみせてください / uchiwake wo misete kudasai）- Could you show me the breakdown?<br>
+                        • 「<ruby>何<rt>なん</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれていますか？」（なにがふくまれていますか / nani ga fukumarete imasu ka）- What's included?<br>
+                        • 「<ruby>確認<rt>かくにん</rt></ruby>させてください」（かくにんさせてください / kakunin sasete kudasai）- Let me check, please.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>割<rt>わ</rt></ruby>り<ruby>勘<rt>かん</rt></ruby>にしたいです。</div>
+                <div class="phrase-reading">わりかんにしたいです。</div>
+                <div class="phrase-romaji">Warikan ni shitai desu.</div>
+                <div class="phrase-english">I'd like to split the bill.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request splitting the bill. "割り勘" (warikan) means "splitting the bill" or "going Dutch."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>均等<rt>きんとう</rt></ruby>に<ruby>割<rt>わ</rt></ruby>りましょう」（きんとうにわりましょう / kintou ni warimashou）- Let's split it equally.<br>
+                        • 「<ruby>一人<rt>ひとり</rt></ruby>いくらですか？」（ひとりいくらですか / hitori ikura desu ka）- How much per person?<br>
+                        • 「<ruby>別々<rt>べつべつ</rt></ruby>に<ruby>支払<rt>しはら</rt></ruby>えますか？」（べつべつにしはらえますか / betsubetsu ni shiharaemasu ka）- Can we pay separately?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>領収書<rt>りょうしゅうしょ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします。</div>
+                <div class="phrase-reading">りょうしゅうしょをおねがいします。</div>
+                <div class="phrase-romaji">Ryoushuusho wo onegai shimasu.</div>
+                <div class="phrase-english">I'd like a receipt, please.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request a receipt. "領収書" (ryoushuusho) means "receipt" and is useful for expense reports or records.</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>ですか？」（りょうしゅうしょはひつようですか / ryoushuusho wa hitsuyou desu ka）- Do I need a receipt?<br>
+                        • 「<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>で<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（かいしゃのなまえでりょうしゅうしょをおねがいします / kaisha no namae de ryoushuusho wo onegai shimasu）- I'd like a receipt in my company's name, please.<br>
+                        • 「<ruby>明細<rt>めいさい</rt></ruby><ruby>書<rt>しょ</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします」（めいさいしょをおねがいします / meisaisho wo onegai shimasu）- I'd like an itemized receipt, please.
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>ポイント<rt>ポイント</rt></ruby>カードは<ruby>使<rt>つか</rt></ruby>えますか？</div>
+                <div class="phrase-reading">ポイントカードはつかえますか？</div>
+                <div class="phrase-romaji">Pointo kaado wa tsukaemasu ka?</div>
+                <div class="phrase-english">Can I use a point card?</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to ask if you can use a point card or membership card. "ポイントカード" (pointo kaado) means "point card" or "loyalty card."</p>
+                    <div class="example-box">
+                        <strong>Related Questions:</strong><br>
+                        • 「<ruby>ポイント<rt>ポイント</rt></ruby>カードを<ruby>作<rt>つく</rt></ruby>りたいです」（ポイントカードをつくりたいです / pointo kaado wo tsukuritai desu）- I'd like to make a point card.<br>
+                        • 「<ruby>ポイント<rt>ポイント</rt></ruby>は<ruby>使<rt>つか</rt></ruby>えますか？」（ポイントはつかえますか / pointo wa tsukaemasu ka）- Can I use my points?<br>
+                        • 「<ruby>会員<rt>かいいん</rt></ruby><ruby>割引<rt>わりびき</rt></ruby>はありますか？」（かいいんわりびきはありますか / kaiin waribiki wa arimasu ka）- Do you have a member discount?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>したいです。</div>
+                <div class="phrase-reading">わすれものをかくにんしたいです。</div>
+                <div class="phrase-romaji">Wasuremono wo kakunin shitai desu.</div>
+                <div class="phrase-english">I'd like to check for forgotten items.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to request checking for forgotten belongings. "忘れ物" (wasuremono) means "forgotten items" or "left behind items."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>はありませんか？」（わすれものはありませんか / wasuremono wa arimasen ka）- Are there any forgotten items?<br>
+                        • 「<ruby>部屋<rt>へや</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>してください」（へやをかくにんしてください / heya wo kakunin shite kudasai）- Please check the room.<br>
+                        • 「<ruby>落<rt>お</rt></ruby>とし<ruby>物<rt>もの</rt></ruby>はありますか？」（おとしものはありますか / otoshimono wa arimasu ka）- Are there any lost items?
+                    </div>
+                </div>
+            </div>
+
+            <div class="phrase-card">
+                <div class="phrase-japanese"><ruby>また<rt>また</rt></ruby><ruby>来<rt>き</rt></ruby>ます。</div>
+                <div class="phrase-reading">またきます。</div>
+                <div class="phrase-romaji">Mata kimasu.</div>
+                <div class="phrase-english">I'll come again.</div>
+                <div class="phrase-explanation">
+                    <strong>Detailed Explanation:</strong>
+                    <p>This expression is used to express that you'll return. "また来ます" (mata kimasu) means "I'll come again" or "I'll be back."</p>
+                    <div class="example-box">
+                        <strong>Related Expressions:</strong><br>
+                        • 「<ruby>ありがとうございました<rt>ありがとうございました</rt></ruby>」（ありがとうございました / arigatou gozaimashita）- Thank you very much.<br>
+                        • 「<ruby>楽<rt>たの</rt></ruby>しかったです」（たのしかったです / tanoshikatta desu）- It was fun.<br>
+                        • 「<ruby>次<rt>つぎ</rt></ruby>も<ruby>お願<rt>おねが</rt></ruby>いします」（つぎもおねがいします / tsugi mo onegai shimasu）- I'll use your service again.
+                    </div>
+                </div>
+            </div>
+
+            <h3>Practice Quiz</h3>
+            <div class="quiz-section">
+                <div class="quiz-question" data-section="5" data-question="1">
+                    <p>Q1: <ruby>会計<rt>かいけい</rt></ruby>をしたい<ruby>時<rt>とき</rt></ruby>、<ruby>正<rt>ただ</rt></ruby>しい<ruby>表現<rt>ひょうげん</rt></ruby>は？<br>
+                    <small>Which is correct when you want to pay?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>会計<rt>かいけい</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>会計<rt>かいけい</rt></ruby>をお<ruby>願<rt>ねが</rt></ruby>いします</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>会計<rt>かいけい</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>会計<rt>かいけい</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(5, 1)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="5" data-question="2">
+                    <p>Q2: <ruby>割<rt>わ</rt></ruby>り<ruby>勘<rt>かん</rt></ruby>にしたい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？<br>
+                    <small>What do you say when you want to split the bill?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>割<rt>わ</rt></ruby>り<ruby>勘<rt>かん</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>割<rt>わ</rt></ruby>り<ruby>勘<rt>かん</rt></ruby>にしたいです</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>割<rt>わ</rt></ruby>り<ruby>勘<rt>かん</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>割<rt>わ</rt></ruby>り<ruby>勘<rt>かん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(5, 2)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="quiz-question" data-section="5" data-question="3">
+                    <p>Q3: <ruby>明細<rt>めいさい</rt></ruby>を<ruby>見<rt>み</rt></ruby>たい<ruby>時<rt>とき</rt></ruby>、<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？<br>
+                    <small>What do you say when you want to see the itemized bill?</small></p>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-answer="wrong">a) <ruby>明細<rt>めいさい</rt></ruby>を<ruby>買<rt>か</rt></ruby>います</div>
+                        <div class="quiz-option" data-answer="correct">b) <ruby>明細<rt>めいさい</rt></ruby>を<ruby>見<rt>み</rt></ruby>せてください</div>
+                        <div class="quiz-option" data-answer="wrong">c) <ruby>明細<rt>めいさい</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです</div>
+                        <div class="quiz-option" data-answer="wrong">d) <ruby>明細<rt>めいさい</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ります</div>
+                    </div>
+                    <button class="check-button" onclick="checkAnswer(5, 3)"><ruby>答<rt>こた</rt></ruby>えを<ruby>確認<rt>かくにん</rt></ruby></button>
+                    <div class="quiz-feedback">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-display" id="score5">
+                <ruby>正解<rt>せいかい</rt></ruby><ruby>数<rt>すう</rt></ruby>: <span id="scoreText5">0/3</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 JCG Japanese Conversation Gym. All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
+
