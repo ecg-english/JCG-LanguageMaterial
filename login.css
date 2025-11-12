@@ -1,0 +1,254 @@
+/* ============================================
+    Login Modal Styles
+   ============================================ */
+
+/* カラーパレット（オレンジ系） */
+:root {
+    --login-primary: #ff9100;
+    --login-primary-dark: #fc8567;
+    --login-primary-light: #F39471;
+    --login-secondary: #F5A273;
+    --login-accent: #E67E5C;
+    --login-gold: #fef3e8;
+    --login-light-text: #FFFFFF;
+    --login-dark-text: #2C3E50;
+}
+
+/* ログインオーバーレイ */
+.login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 90, 58, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* ログインモーダル */
+.login-modal {
+    width: 90%;
+    max-width: 450px;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.login-modal-content {
+    background: linear-gradient(135deg, var(--login-primary) 0%, var(--login-primary-light) 100%);
+    border-radius: 12px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 10px 40px rgba(232, 116, 79, 0.4);
+    border: 2px solid var(--login-gold);
+    position: relative;
+}
+
+.login-modal-content::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, var(--login-gold), var(--login-accent));
+    border-radius: 12px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.login-lang-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: var(--login-light-text);
+    border: 1px solid var(--login-gold);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.login-lang-button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: var(--login-gold);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(255, 184, 77, 0.3);
+}
+
+.login-lang-button:focus {
+    outline: 2px solid var(--login-gold);
+    outline-offset: 2px;
+}
+
+.login-title {
+    color: var(--login-gold);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login-subtitle {
+    color: var(--login-light-text);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+.login-form {
+    margin-top: 1.5rem;
+}
+
+.login-input-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-input-group label {
+    display: block;
+    color: var(--login-light-text);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.login-note {
+    color: var(--login-light-text);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    opacity: 0.85;
+    line-height: 1.4;
+}
+
+.login-input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--login-accent);
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: var(--login-dark-text);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.login-input:focus {
+    outline: none;
+    border-color: var(--login-gold);
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(255, 184, 77, 0.25);
+}
+
+.login-input-error {
+    border-color: #e74c3c !important;
+    background-color: #ffeaea !important;
+}
+
+.login-error {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #ffcccc;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    border-left: 3px solid #e74c3c;
+    animation: shake 0.3s ease;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    75% {
+        transform: translateX(10px);
+    }
+}
+
+.login-button {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: var(--login-gold);
+    color: var(--login-primary-dark);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(255, 184, 77, 0.3);
+}
+
+.login-button:hover {
+    background-color: #FFC966;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 184, 77, 0.5);
+}
+
+.login-button:active {
+    transform: translateY(0);
+}
+
+.login-button:focus {
+    outline: 3px solid var(--login-gold);
+    outline-offset: 2px;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+    .login-modal {
+        width: 95%;
+        max-width: none;
+    }
+    
+    .login-modal-content {
+        padding: 2rem 1.5rem;
+    }
+    
+    .login-lang-button {
+        top: 0.5rem;
+        right: 0.5rem;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .login-title {
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+    
+    .login-subtitle {
+        font-size: 0.9rem;
+    }
+}
